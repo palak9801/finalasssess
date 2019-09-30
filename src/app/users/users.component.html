@@ -1,0 +1,22 @@
+<div class="col-md-5 mt-2">
+    <table class="table hover table bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>UserName</th>
+                <th>Email</th>
+                <th>Website</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let u of users'>
+                <td>{{u.name}}</td>
+                <td>{{u.username}}</td>
+                <td>{{u.email}}</td>
+                <td>{{u.website}}</td>
+                <td>{{u.address}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
